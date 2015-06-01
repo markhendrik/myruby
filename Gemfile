@@ -4,17 +4,17 @@ gem 'rails', '3.2.21'
 gem 'coffee-script-source', '1.8.0'
 #gem 'jquery-rails', '~> 2.3.0'
 gem 'jquery-ui-rails'
-#gem "activeadmin", "0.6.0"
+gem "activeadmin", "0.6.0"
 gem 'meta_search'
 #gem 'sass-rails', '~> 4.0.0'
 gem 'sass', '3.2.5'
 
 # Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
+gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 #gem 'sqlite3'
 gem 'pg'
-gem 'activeadmin'
+#gem 'activeadmin'
 
 # Gems used only for assets and not required
 # in production environments by default.
