@@ -6,7 +6,6 @@ gem 'coffee-script-source', '1.8.0'
 gem 'jquery-ui-rails'
 gem "activeadmin", "0.6.0"
 gem 'meta_search'
-gem "sass", "~> 3.2.5"
 gem 'sass-rails'
 
 # Bundle edge Rails instead:
