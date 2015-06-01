@@ -7,6 +7,7 @@ gem 'jquery-ui-rails'
 gem "activeadmin", "0.6.0"
 gem 'meta_search'
 #gem 'sass-rails', '~> 4.0.0'
+gem 'sass', '3.2.5'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
