@@ -24,7 +24,6 @@ Myrubyblog::Application.routes.draw do
 
   get "home/index"
   resources :posts
-  resources :categories
   match '/about', :to => 'pages#about'
   match '/contact', :to => 'pages#contact'
   match '/resources', :to => 'pages#resources'
