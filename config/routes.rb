@@ -1,4 +1,13 @@
 Myrubyblog::Application.routes.draw do
+  resources :post_comments
+
+
+  get "pages/about"
+
+  get "pages/contact"
+
+  get "pages/resources"
+
   devise_for :admin_users, ActiveAdmin::Devise.config
   
 
@@ -16,6 +25,9 @@ Myrubyblog::Application.routes.draw do
   get "home/index"
   resources :posts
   resources :categories
+  match '/about', :to => 'pages#about'
+  match '/contact', :to => 'pages#contact'
+  match '/resources', :to => 'pages#resources'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

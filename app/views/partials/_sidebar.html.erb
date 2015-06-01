@@ -1,0 +1,24 @@
+    <div id="sidebar">
+      <ul>
+       <li>
+        <div id="search">
+           <%= form_for @search do |f| %>
+           <%= f.text_field :title_or_body_contains %>
+           <%= f.submit "Search" %>
+           <% end %>    
+        </div>
+         <div style="clear: both;">&nbsp;</div> 
+       </li>
+
+       <li>
+        <h3>Categories</h3>
+        <ul>
+          <% all_categories.each do |cat| %>
+            <li><%= link_to cat.name,category_path(:id => cat.id) %></li>
+          <% end %>
+        </ul>
+       </li>
+
+      </ul>
+     </div>
+     <!-- end #sidebar -->
