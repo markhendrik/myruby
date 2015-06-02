@@ -35,3 +35,4 @@ gem 'jbuilder', '~> 2.0'
 # gem 'capistrano-rails', group: :development
 
 #end
+gem "activeadmin", "0.6.0"
