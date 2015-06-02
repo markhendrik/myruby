@@ -163,5 +163,5 @@ DEPENDENCIES
   meta_search
   pg
   rails (= 3.2.21)
-  sass-rails
+  sass-rails (~> 3.2.3)
   uglifier (>= 1.0.3)
