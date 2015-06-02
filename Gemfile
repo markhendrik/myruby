@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.21'
 gem 'coffee-script-source', '1.8.0'
-#gem 'jquery-rails', '~> 2.3.0'
+gem 'jquery-rails', '~> 2.3.0'
 #gem 'jquery-ui-rails'
 gem "activeadmin", "0.6.0"
 gem 'meta_search'
