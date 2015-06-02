@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
+gem 'activeadmin', '0.6.0'
+gem 'meta_search'
 gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -35,5 +37,3 @@ gem 'jbuilder', '~> 2.0'
 # gem 'capistrano-rails', group: :development
 
 #end
-gem "activeadmin", "0.6.0"
-gem 'meta_search'
