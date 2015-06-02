@@ -36,3 +36,4 @@ gem 'jbuilder', '~> 2.0'
 
 #end
 gem "activeadmin", "0.6.0"
+gem 'meta_search'
