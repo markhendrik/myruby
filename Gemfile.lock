@@ -159,6 +159,7 @@ DEPENDENCIES
   activeadmin (= 0.6.0)
   coffee-rails (~> 3.2.1)
   coffee-script-source (= 1.8.0)
+  jquery-rails
   jquery-ui-rails
   meta_search
   pg
