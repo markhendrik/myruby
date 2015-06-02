@@ -15,6 +15,7 @@ gem 'sass', '3.2.5'
 #gem 'sqlite3'
 gem 'pg'
 #gem 'activeadmin'
+gem 'rails_12factor', '0.0.2'
 
 # Gems used only for assets and not required
 # in production environments by default.
